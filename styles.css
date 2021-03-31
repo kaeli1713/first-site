@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+  font-family: "Noto sans JP", sans-serif;
+}
+
+/*
+    * Navigation styles
+*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #55b5ec;
+}
+
+/* Body styles */
+main {
+  display: flex;
+  width: 100%;
+  width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  justify-content: space-between;
+}
